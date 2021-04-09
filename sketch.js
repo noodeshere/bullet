@@ -22,7 +22,7 @@ function draw() {
 
   if(car.isTouching(wall)){
     car.velocityX=0
-    damage =(0.5*weight*speed*speed/thicknessofwall*thicknessofwall*thicknessofwall)}
+    damage =(0.5*weight*speed*speed/(thicknessofwall*thicknessofwall*thicknessofwall))}
 if(damage<=10){
 wall.shapeColor=color(0,255,0)}
 
